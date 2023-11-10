@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  padding: 0 10px;
+  height: 1.5rem;
+  margin: 2px;
+  float: right;
+}
+
+button:disabled {
+  background-color: gray;
+}
+
+input {
+  border: 1px solid darkblue;
+  border-radius: 3px;
+  height: 1.5rem;
+  width: calc(100% - 50px);
+}
+
+.item {
+  height: 2rem;
+  margin: 3px 0;
+  padding: 2px;
+  background-color: lightblue;
+  border-radius: 3px;
+}
